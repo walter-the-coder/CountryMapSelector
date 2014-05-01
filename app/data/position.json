@@ -1,15 +1,15 @@
 [	
 	{
-		"country": "Norway",
-		"Xpos": -1050,
-		"Ypos": -20,
-		"Src": "../img/countries/norway.png"
+		"country": "Albania",
+		"Xpos": -1100,
+		"Ypos": -250,
+		"Src": "../img/countries/albania.png"
 	},
 	{
-		"country": "Sweden",
-		"Xpos": -1040,
-		"Ypos": -25,
-		"Src": "../img/countries/sweden.png"
+		"country": "Canada",
+		"Xpos": -200,
+		"Ypos": -70,
+		"Src": "../img/countries/canada.png"
 	},
 	{
 		"country": "Denmark",
@@ -22,5 +22,71 @@
 		"Xpos": -1110,
 		"Ypos": -15,
 		"Src": "../img/countries/finland.png"
+	},
+	{
+		"country": "Germany",
+		"Xpos": -1000,
+		"Ypos": -140,
+		"Src": "../img/countries/germany.png"
+	},
+	{
+		"country": "Iceland",
+		"Xpos": -800,
+		"Ypos": 0,
+		"Src": "../img/countries/iceland.png"
+	},
+	{
+		"country": "Kosovo",
+		"Xpos": -1100,
+		"Ypos": -250,
+		"Src": "../img/countries/kosovo.png"
+	},
+	{
+		"country": "Macedonia",
+		"Xpos": -1100,
+		"Ypos": -250,
+		"Src": "../img/countries/macedonia.png"
+	},
+	{
+		"country": "Montenegro",
+		"Xpos": -1100,
+		"Ypos": -250,
+		"Src": "../img/countries/montenegro.png"
+	},
+	{
+		"country": "Norway",
+		"Xpos": -1050,
+		"Ypos": -20,
+		"Src": "../img/countries/norway.png"
+	},
+	{
+		"country": "Romania",
+		"Xpos": -1100,
+		"Ypos": -250,
+		"Src": "../img/countries/romania.png"
+	},
+	{
+		"country": "Russia",
+		"Xpos": -1400,
+		"Ypos":-100,
+		"Src": "../img/countries/russia.png"
+	},
+	{
+		"country": "Sweden",
+		"Xpos": -1040,
+		"Ypos": -25,
+		"Src": "../img/countries/sweden.png"
+	},
+	{
+		"country": "United Kingdom",
+		"Xpos": -900,
+		"Ypos": -130,
+		"Src": "../img/countries/UK.png"
+	},
+	{
+		"country": "United States",
+		"Xpos": -100,
+		"Ypos": -285,
+		"Src": "../img/countries/USA.png"
 	}
 ]

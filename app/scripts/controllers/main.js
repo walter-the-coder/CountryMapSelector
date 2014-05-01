@@ -45,7 +45,7 @@ angular.module('knowitApp')
 	        		$scope.moveXpos(posArray[teller].Xpos, -scrollAmount, posArray[teller].Src);
 	        	}
 
-	        	if(posArray[teller].Xpos > Xpos){
+	        	if(posArray[teller].Xpos >= Xpos){
 	        		$scope.moveXpos(posArray[teller].Xpos, scrollAmount, posArray[teller].Src);
 	        	}
 
@@ -53,7 +53,7 @@ angular.module('knowitApp')
 	        		$scope.moveYpos(posArray[teller].Ypos, -scrollAmount, posArray[teller].Src);
 	        	}
 
-	        	if(posArray[teller].Ypos > Ypos){
+	        	if(posArray[teller].Ypos >= Ypos){
 	        		$scope.moveYpos(posArray[teller].Ypos, scrollAmount, posArray[teller].Src);
 	        	}
 
@@ -134,7 +134,7 @@ angular.module('knowitApp')
 	  	countryImage.onload = function() {
 	    	context.drawImage(countryImage, 0, 0);
 	  	};
-		countryImage.src = imageURL;	
+		countryImage.src = imageURL;
 	}
 
   });
