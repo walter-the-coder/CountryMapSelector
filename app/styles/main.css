@@ -1,0 +1,41 @@
+/* Pattern variabler */
+/* form feil-farge */
+body {
+  margin: 30px;
+  background: linear-gradient(45deg, #eeeeee 28%, transparent 28%), linear-gradient(45deg, white 30%, transparent 30%), linear-gradient(135deg, #eeeeee 28%, transparent 28%) 14px 0, linear-gradient(135deg, white 30%, transparent 30%) 14px 0, #eeeeee;
+  background-size: 32px 32px; }
+  body .error {
+    color: red;
+    font-size: 12px;
+    font-family: arial, sans-serif; }
+  body .mainContentWrapper,
+  body .twoWayWrapper {
+    padding: 30px 0 30px 0;
+    background-color: white;
+    box-shadow: 3px 3px 3px #DDD;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+  body .twoWayWrapper {
+    text-align: center;
+    margin-top: 15px !important; }
+    body .twoWayWrapper h2 {
+      margin-top: -15px; }
+    body .twoWayWrapper p:first-child {
+      font-size: 18px;
+      color: #555;
+      border-bottom: 1px solid #DDD;
+      padding-bottom: 15px; }
+
+.logoImg {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; }
+
+#myCanvas {
+  border: 5px solid #d3d3d3;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto; }

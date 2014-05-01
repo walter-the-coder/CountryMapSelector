@@ -1,0 +1,26 @@
+[	
+	{
+		"country": "Norway",
+		"Xpos": -1050,
+		"Ypos": -20,
+		"Src": "../img/countries/norway.png"
+	},
+	{
+		"country": "Sweden",
+		"Xpos": -1040,
+		"Ypos": -25,
+		"Src": "../img/countries/sweden.png"
+	},
+	{
+		"country": "Denmark",
+		"Xpos": -985,
+		"Ypos": -90,
+		"Src": "../img/countries/denmark.png"
+	},
+	{
+		"country": "Finland",
+		"Xpos": -1110,
+		"Ypos": -15,
+		"Src": "../img/countries/finland.png"
+	}
+]

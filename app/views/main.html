@@ -1,0 +1,82 @@
+  <nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <img src="img/logo.png" alt="Logo" class="logoImg">
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Hjem</a></li>
+        <li><a href="#/angularEksempel">Angular</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="mainContentWrapper col-sm-12">
+  <div class="col-sm-2">
+  </div><!-- end col-sm-2 -->
+
+  <div class="col-sm-10">
+    <form class="form-horizontal" role="form" id="minEksempelForm">
+      <fieldset>
+        <legend>Bootstrap form eksempel med validering</legend>    
+        <div class="form-group">
+          <label for="navn" class="col-sm-1 control-lable">Navn</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" name="navn" ng-model="navn">
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="passord" class="col-sm-1 control-lable">Passord</label>
+          <div class="col-sm-8">
+           <input type="password" class="form-control" name="passord">
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="epost" class="col-sm-1 control-lable">Epost</label>
+          <div class="col-sm-8">
+            <input type="email" class="form-control" name="epost" ng-model="epost">
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+        <span class="help-block col-sm-offset-1">Valideringen skjer ved bruk av jQuery Validation biblioteket</span>
+
+        <div class="form-group">
+          <input type="reset" ng-click="resetVars()" class="btn btn-default col-sm-offset-1">
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </fieldset>
+    </form>
+  </div><!-- end col-sm-10 -->
+</section><!-- end mainContentWrapper -->
+
+<section class="twoWayWrapper col-sm-12"><br>
+  <h2>2-veis binding til skjemaet</h2>
+  <div>
+  <p>Ved bruk av Angular</p>
+  <br>
+  <p><b>Navn:</b> {{navn}}</p>
+  <p><b>Epost:</b> {{epost}}</p>
+  </div>
+</section>
+
+<section class="twoWayWrapper col-sm-12">
+  <h2>Typeahead</h2>
+  <input id="autoComplete" type="text" name="typeahead" class="form-control" ng-keyup="setCountry()">
+  <span class="help-block">Autocomplete eksempel ved bruk av typeahead.js</span>
+
+  <br>
+  <canvas id="myCanvas" width="640" height="320">
+  Nettleseren din støtter ikke HTML5 canvas.</canvas>
+</section>
+<br>
+
+<script src="scripts/eksempelValidering.js"></script>

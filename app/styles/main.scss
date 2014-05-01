@@ -1,0 +1,64 @@
+/* Pattern variabler */
+$bgColor: #EEE;
+$patternColor: #FFF;
+/* form feil-farge */
+$errorColor: red;
+$formBGC: white;
+
+@mixin border-radius4($tl:5px, $tr:5px, $br:5px, $bl:5px){
+    border-top-left-radius:     $tl;
+    border-top-right-radius:    $tr;
+    border-bottom-right-radius: $br;
+    border-bottom-left-radius:  $bl;
+}
+
+body{
+    margin: 30px;
+    background:
+    linear-gradient(45deg, $bgColor 28%, transparent 28%),
+    linear-gradient(45deg, $patternColor 30%, transparent 30%),
+    linear-gradient(135deg, $bgColor 28%, transparent 28%) 14px 0,
+    linear-gradient(135deg, $patternColor 30%, transparent 30%) 14px 0,
+    $bgColor;
+
+    background-size: 32px 32px;
+    .error{
+        color: $errorColor;
+        font-size: 12px;
+        font-family: arial, sans-serif;
+    }
+    .mainContentWrapper,
+    .twoWayWrapper{
+        padding: 30px 0 30px 0;
+        background-color: $formBGC;
+        box-shadow: 3px 3px 3px #DDD;
+        @include border-radius4();
+    }
+    .twoWayWrapper {
+        text-align: center;
+        margin-top: 15px !important;
+        h2{
+            margin-top: -15px;
+        }
+        p:first-child{
+            font-size: 18px;
+            color: #555;
+            border-bottom: 1px solid #DDD;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+.logoImg{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#myCanvas{
+    border:5px solid #d3d3d3;
+    max-width: 100%; 
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
