@@ -16,9 +16,12 @@ angular.module('knowitApp')
     var canvasID = 'myCanvas';
     /*Defines amount to scroll, that means scrollspeed*/
     var scrollAmount = 10;
+    /*If selected country is needed for user purpose, you can find it here*/
+    $scope.country; 
 
     /*Function dependent variables. do not alter*/
     var countryImage = new Image();/*USED TO PLACE IMAGE OF COUNTRY ON TOP OF MAP. do not touch*/
+    var setImage = 0;
     var delayTime = 1;/*do not touch*/
 	var Xpos = 0;
 	var Ypos = 0;
@@ -40,7 +43,6 @@ angular.module('knowitApp')
 	$scope.getAndSetPosition = function(posArray, country) {
 	    for (var teller = 0; teller < posArray.length; teller ++) {
 	        if (posArray[teller].country == country) {
-
 	        	if(posArray[teller].Xpos < Xpos){
 	        		$scope.moveXpos(posArray[teller].Xpos, -scrollAmount, posArray[teller].Src);
 	        	}
@@ -81,8 +83,8 @@ angular.module('knowitApp')
 				}
 				else{
 					Xpos = XposNew;
-					$scope.updateCanvas();
-					$scope.setImage(countryImage);
+					setImage +=1;
+					$scope.checkIfArrivedAtCountry(countryImage);
 				}
 			}
 			else{
@@ -93,8 +95,8 @@ angular.module('knowitApp')
 				}
 				else{
 					Xpos = XposNew;
-					$scope.updateCanvas();
-					$scope.setImage(countryImage);
+					setImage +=1;
+					$scope.checkIfArrivedAtCountry(countryImage);
 				}
 			}
 		},delayTime);		
@@ -111,8 +113,8 @@ angular.module('knowitApp')
 				}
 				else{
 					Ypos = YposNew;
-					$scope.updateCanvas();
-					$scope.setImage(countryImage);
+					setImage +=1;
+					$scope.checkIfArrivedAtCountry(countryImage);
 				}
 			}
 			else{
@@ -123,12 +125,20 @@ angular.module('knowitApp')
 				}
 				else{
 					Ypos = YposNew;
-					$scope.updateCanvas();
-					$scope.setImage(countryImage);
+					setImage +=1;
+					$scope.checkIfArrivedAtCountry(countryImage);
 				}
 			}
 		},delayTime);		
 	};
+
+	$scope.checkIfArrivedAtCountry = function(countryImage){
+		if(setImage == 2){
+			$scope.updateCanvas();
+			$scope.setImage(countryImage);
+			setImage = 0;
+		}
+	}
 
 	$scope.setImage = function(imageURL){
 	  	countryImage.onload = function() {

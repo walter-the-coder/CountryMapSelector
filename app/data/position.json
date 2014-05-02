@@ -6,10 +6,34 @@
 		"Src": "../img/countries/albania.png"
 	},
 	{
+		"country": "Australia",
+		"Xpos": -2100,
+		"Ypos": -950,
+		"Src": "../img/countries/australia.png"
+	},
+	{
+		"country": "Austria",
+		"Xpos": -1025,
+		"Ypos": -190,
+		"Src": "../img/countries/austria.png"
+	},
+	{
+		"country": "Brazil",
+		"Xpos": -350,
+		"Ypos": -775,
+		"Src": "../img/countries/brazil.png"
+	},
+	{
 		"country": "Canada",
 		"Xpos": -200,
 		"Ypos": -70,
 		"Src": "../img/countries/canada.png"
+	},
+	{
+		"country": "China",
+		"Xpos": -1800,
+		"Ypos": -300,
+		"Src": "../img/countries/china.png"
 	},
 	{
 		"country": "Denmark",
@@ -24,6 +48,12 @@
 		"Src": "../img/countries/finland.png"
 	},
 	{
+		"country": "France",
+		"Xpos": -925,
+		"Ypos": -200,
+		"Src": "../img/countries/france.png"
+	},
+	{
 		"country": "Germany",
 		"Xpos": -1000,
 		"Ypos": -140,
@@ -34,6 +64,24 @@
 		"Xpos": -800,
 		"Ypos": 0,
 		"Src": "../img/countries/iceland.png"
+	},
+	{
+		"country": "India",
+		"Xpos": -1625,
+		"Ypos": -450,
+		"Src": "../img/countries/india.png"
+	},
+	{
+		"country": "Italy",
+		"Xpos": -1000,
+		"Ypos": -250,
+		"Src": "../img/countries/italy.png"
+	},
+	{
+		"country": "Japan",
+		"Xpos": -2100,
+		"Ypos": -275,
+		"Src": "../img/countries/japan.png"
 	},
 	{
 		"country": "Kosovo",
@@ -54,10 +102,28 @@
 		"Src": "../img/countries/montenegro.png"
 	},
 	{
+		"country": "North Korea",
+		"Xpos": -2000,
+		"Ypos": -275,
+		"Src": "../img/countries/northkorea.png"
+	},
+	{
 		"country": "Norway",
 		"Xpos": -1050,
 		"Ypos": -20,
 		"Src": "../img/countries/norway.png"
+	},
+	{
+		"country": "Poland",
+		"Xpos": -1050,
+		"Ypos": -140,
+		"Src": "../img/countries/poland.png"
+	},
+	{
+		"country": "Portugal",
+		"Xpos": -875,
+		"Ypos": -250,
+		"Src": "../img/countries/portugal.png"
 	},
 	{
 		"country": "Romania",
@@ -72,10 +138,34 @@
 		"Src": "../img/countries/russia.png"
 	},
 	{
+		"country": "South Korea",
+		"Xpos": -2025,
+		"Ypos": -300,
+		"Src": "../img/countries/southkorea.png"
+	},
+	{
+		"country": "Spain",
+		"Xpos": -875,
+		"Ypos": -250,
+		"Src": "../img/countries/spain.png"
+	},
+	{
 		"country": "Sweden",
 		"Xpos": -1040,
 		"Ypos": -25,
 		"Src": "../img/countries/sweden.png"
+	},
+	{
+		"country": "Ukraine",
+		"Xpos": -1150,
+		"Ypos": -170,
+		"Src": "../img/countries/ukraine.png"
+	},
+	{
+		"country": "United Arab Emirates",
+		"Xpos": -1400,
+		"Ypos": -425,
+		"Src": "../img/countries/UAE.png"
 	},
 	{
 		"country": "United Kingdom",
