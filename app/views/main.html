@@ -74,7 +74,7 @@
   <span class="help-block">Autocomplete eksempel ved bruk av typeahead.js</span>
 
   <br>
-  <canvas id="myCanvas" width="640" height="320">
+  <canvas id="myCanvas" width="640" height="320" ng-mousedown="startDrag($event)" ng-mouseleave="stopDrag($event)" ng-mousemove="drag($event)" ng-mouseup="stopDrag($event)">
   Nettleseren din støtter ikke HTML5 canvas.</canvas>
 </section>
 <br>

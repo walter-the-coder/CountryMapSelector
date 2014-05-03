@@ -18,6 +18,12 @@ body {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px; }
   body .twoWayWrapper {
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
     text-align: center;
     margin-top: 15px !important; }
     body .twoWayWrapper h2 {
@@ -38,4 +44,5 @@ body {
   max-width: 100%;
   max-height: 100%;
   width: auto;
-  height: auto; }
+  height: auto;
+  cursor: all-scroll; }

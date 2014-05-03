@@ -35,6 +35,9 @@ body{
         @include border-radius4();
     }
     .twoWayWrapper {
+        -webkit-user-select: none; /* Chrome/Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
         text-align: center;
         margin-top: 15px !important;
         h2{
@@ -61,4 +64,5 @@ body{
     max-height: 100%;
     width: auto;
     height: auto;
+    cursor: all-scroll;
 }
